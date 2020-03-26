@@ -1,24 +1,32 @@
-# README
+# members-only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The purpose of this project is to build a user model with authentication, a user who can create posts and the name of the author is only seen when someone is logged in.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby
+- Ruby on Rails
 
-* System dependencies
+## Authors
 
-* Configuration
+👤 **Miguel Dubois**
 
-* Database creation
+- Github: [@MiguelDP4](https://github.com/MiguelDP4)
+- Twitter: [@Mike_DP4](https://twitter.com/Mike_DP4)
 
-* Database initialization
+👤 **Marshall Chikari**
 
-* How to run the test suite
+- Github: [@gitnyasha](https://github.com/gitnyasha)
+- Twitter: [@marshallchkari](https://twitter.com/marshallchkari) 
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🤝 Contributing
 
-* Deployment instructions
+This project is for learning purposes only, we wont accept contributions, though suggestions are welcome.
 
-* ...
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- We thank microverse for this learning opportunity.
