@@ -13,6 +13,7 @@ The purpose of this project is to build a user model with authentication, a user
 
 - Github: [@MiguelDP4](https://github.com/MiguelDP4)
 - Twitter: [@Mike_DP4](https://twitter.com/Mike_DP4)
+- LinkedIn [Miguel Dubois](https://www.linkedin.com/in/miguel-angel-dubois)
 
 👤 **Marshall Chikari**
 
