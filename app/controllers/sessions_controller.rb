@@ -1,17 +1,18 @@
+# frozen_string_literal: true
+
 class SessionsController < ApplicationController
-  def new
-  end
+  def new; end
 
   def create
     @user = User.find_by(email: params[:session][:email])
-    if @user && @user.authenticate(params[:session][:password])
+    if @user&.authenticate(params[:session][:password])
       respond_to do |format|
-        format.html { redirect_to root_url, notice: "User was logged correctly." }
+        format.html { redirect_to root_url, notice: 'User was logged correctly.' }
         log_in @user
       end
     else
-      flash.now[:danger] = "Invalid email/password combination"
-      render "new"
+      flash.now[:danger] = 'Invalid email/password combination'
+      render 'new'
     end
   end
 
