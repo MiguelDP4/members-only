@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     @user = User.find_by(email: params[:session][:email])
     if @user && @user.authenticate(params[:session][:password])
       respond_to do |format|
-        format.html { redirect_to current_user, notice: "User was logged correctly." }
+        format.html { redirect_to root_url, notice: "User was logged correctly." }
         log_in @user
       end
     else
@@ -16,7 +16,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    #log_out
-    #redirect_to root_url
-  end 
+    log_out
+    redirect_to root_url
+  end
 end
