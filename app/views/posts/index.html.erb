@@ -23,5 +23,6 @@
 </table>
 
 <br>
-
+ <% if current_user %>
 <%= link_to "New Post", new_post_path %>
+    <% end %>
